@@ -1,0 +1,209 @@
+h1 {
+	
+	font-family: Purisa;
+	font-size: 2em;
+	border-bottom: 2px solid pink;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.hint-container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+h3 {
+    margin: 0;
+    transform: rotate(-25deg);
+    transition: transform 0.5s;
+    text-shadow: 0 0 5px #01579b;
+}
+
+
+
+
+.hint2,
+.hint0 {
+    background: #03a9f4;
+    box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.4);
+    color: white;
+    margin: 0.5em;
+    min-height: 100px;
+    flex: 0 1 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hint0:hover h3 {
+    transform: rotate(0deg);
+}
+.hint2:hover h3 {
+    transform: rotate(0deg);
+}
+.hint2 {
+	margin-left: 300px;
+}
+.robots {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+}
+.left-ear,
+.right-ear,
+.head, 
+.left_arm, 
+.torso, 
+.right_arm, 
+.left_leg, 
+.right_leg {
+	 background-color: #5f93e8;
+}
+.ears {
+	width: 200px; 
+	height: 20px;
+	/* This is another useful property. Hmm what do you think it does?*/
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 0px;
+}
+.left-ear, .right-ear { 
+	width: 40px; 
+	height: 90px;
+	border-radius: 100px; 
+
+	
+}
+.left-ear {
+	margin-right: 50px;
+
+}
+.right-ear {
+	margin-left: 50px;
+}
+.head { 
+	width: 200px; 
+	margin: 0 auto; 
+	height: 150px; 
+	border-radius: 200px 200px 0 0; 
+	margin-bottom: 10px;
+} 
+
+.eyes {
+	display:flex;
+	
+}
+
+.head:hover {
+	width: 300px;
+    transition: 1s ease-in-out;
+}
+
+.upper_body { 
+	width: 300px; 
+	height: 150px;
+	display: flex; 
+} 
+
+.left_arm, .right_arm { 
+	width: 40px; 
+	height: 125px;
+	border-radius: 100px; 
+} 
+
+.left_arm { 
+	margin-right: 10px; 
+} 
+.left_arm:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+.right_arm { 
+	margin-left: 10px; 
+} 
+.right_arm:hover {
+	-webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+.torso { 
+	width: 200px; 
+	height: 200px;
+	border-radius: 0 0 50px 50px; 
+} 
+
+.lower_body { 
+	width: 200px; 
+	height: 130px;
+	/* This is another useful property. Hmm what do you think it does?*/
+	margin: 0 auto;
+	display: flex;
+
+} 
+
+.left_leg, .right_leg { 
+	width: 40px; 
+	height: 120px;
+	border-radius: 0 0 100px 100px; 
+} 
+
+.left_leg { 
+	margin-left: 45px; 
+} 
+
+.left_leg:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+.right_leg { 
+	margin-left: 30px; 
+}
+.right_leg:hover {
+	-webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
+.left_eye, .right_eye { 
+	width: 20px; 
+	height: 20px; 
+	border-radius: 15px; 
+	background-color: white;  
+} 
+
+.left_eye { 
+	/* These properties are new and you haven't encountered
+	in this course. Check out CSS Tricks to see what it does! */
+	position: relative; 
+	top: 100px; 
+	left: 40px; 
+} 
+
+.right_eye { 
+	position: relative; 
+	top: 100px; 
+	left: 120px; 
+}
+.foot {
+	font-family: Purisa;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+
+
+
